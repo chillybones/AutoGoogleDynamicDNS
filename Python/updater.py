@@ -14,8 +14,8 @@ splitText = text.split(":")
 ipAddr = splitText[1].lstrip()
 
 host1 = "snowsong.org"
-user1 = "ET7842U7gXYA7nwU"
-pass1 = "0nFxXtbXmfbNCh3g"
+user1 = ""
+pass1 = ""
 
 
 req1 = requests.post("https://%s:%s@domains.google.com/nic/update?hostname=%s&myip=%s" % (user1, pass1, host1, ipAddr),
